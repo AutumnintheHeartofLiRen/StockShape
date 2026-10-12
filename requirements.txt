@@ -1,0 +1,8 @@
+# Core script environment observed on 2026-10-12; Python 3.12.
+akshare==1.18.97
+pandas==3.0.6
+numpy==2.5.3
+
+# AKShare runtime dependencies pinned to the working local versions.
+mini-racer==0.14.1
+openpyxl==3.1.5

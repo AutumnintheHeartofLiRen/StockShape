@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+desktop_data/
+
+# Owner's strategy package, real parameters and research material
+private/
+strategy_config.json
+/V15_history_shape_model.py
+/V16_history_candidate_path_shape.py
+/V9_shape_diagnostic.py
+/rsw_manual_pattern_research_v2.py
+/run_frozen_model_daily.py
+/docs/MODEL.md
+/tests/fixtures/
+/tests/test_desktop_services.py
+/tools/health_check.py
+data/
+frozen_model_daily/
+reference/
+review_log/
+
+# AI credentials and local settings
+.env
+.env.*
+!.env.example
+*.log
+*.lock
+*.tmp
+.idea/
+.vscode/
